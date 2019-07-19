@@ -42,6 +42,20 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ITC.Common\ITC.Common.csproj">
+      <Project>{69e10e91-656c-467b-9306-dfa39329d7cc}</Project>
+      <Name>ITC.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITC.Data\ITC.Data.csproj">
+      <Project>{588d8766-dca0-4c78-b420-ba53fff7c093}</Project>
+      <Name>ITC.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITC.Model\ITC.Model.csproj">
+      <Project>{5b77bc93-cb56-46f3-bb25-d4143ce2c132}</Project>
+      <Name>ITC.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -52,6 +52,28 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ITC.Common\ITC.Common.csproj">
+      <Project>{69e10e91-656c-467b-9306-dfa39329d7cc}</Project>
+      <Name>ITC.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITC.Data\ITC.Data.csproj">
+      <Project>{588d8766-dca0-4c78-b420-ba53fff7c093}</Project>
+      <Name>ITC.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITC.Model\ITC.Model.csproj">
+      <Project>{5b77bc93-cb56-46f3-bb25-d4143ce2c132}</Project>
+      <Name>ITC.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITC.Service\ITC.Service.csproj">
+      <Project>{20e6e7f7-0723-42aa-b9e7-a63bb3a22222}</Project>
+      <Name>ITC.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITC.Web\ITC.Web.csproj">
+      <Project>{ca1036f1-39b7-4fba-8098-05508f84b351}</Project>
+      <Name>ITC.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
